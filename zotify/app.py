@@ -23,7 +23,7 @@ def client(args) -> None:
     Printer.print(PrintChannel.SPLASH, splash())
 
     quality_options = {
-        'auto': AudioQuality.VERY_HIGH if Zotify.check_premium() else AudioQuality.HIGH,
+        'auto': AudioQuality.VERY_HIGH,
         'normal': AudioQuality.NORMAL,
         'high': AudioQuality.HIGH,
         'very_high': AudioQuality.VERY_HIGH
